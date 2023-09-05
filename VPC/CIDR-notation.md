@@ -28,5 +28,18 @@ CIDR, which stands for Classless Inter-Domain Routing, is a method used in IP ad
      - `/16`: Represents a medium-sized network.
      - `/8`: Represents a large network.
      - `/0`: Represents the entire IPv4 address space.
+     
+If you have a subnet with a CIDR notation of `/24`, which means the first 24 bits are reserved for the network portion and the remaining 8 bits for host addresses, you can calculate the network and broadcast IP addresses as follows:
+
+**CIDR Notation:** `/24`
+
+**Subnet Mask:** `255.255.255.0` (in decimal) or `11111111.11111111.11111111.00000000` (in binary)
+
+Assuming the network IP address is `192.168.1.0`, you can calculate the network and broadcast IP addresses as follows:
+
+- **Network IP Address:** `192.168.1.0` (The first address in the subnet is reserved for the network identifier.)
+- **Broadcast IP Address:** `192.168.1.255` (The last address in the subnet is reserved for broadcast traffic, which is a way for a device to send data to all devices on the network.)
+
+So, in a `/24` subnet, the network IP address is `192.168.1.0`, and the broadcast IP address is `192.168.1.255`. The range of host addresses within this subnet is `192.168.1.1` to `192.168.1.254`, with `192.168.1.0` and `192.168.1.255` reserved for network identification and broadcast traffic, respectively.
 
 CIDR notation is an essential tool for network administrators and engineers, as it allows for efficient IP address allocation, subnetting, and routing. Understanding CIDR helps in designing and managing IP-based networks effectively.
