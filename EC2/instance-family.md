@@ -30,4 +30,36 @@ Amazon Elastic Compute Cloud (EC2) offers a variety of instance families, each t
 
 These are just some of the prominent EC2 instance families available in AWS. Each family offers a variety of instance types with different performance characteristics, making it important to choose the right instance type based on your specific workload requirements.
 
+## Instance Families
+'''
+    C – Compute
+
+    D – Dense storage
+
+    F – FPGA
+
+    G – GPU
+
+    Hpc – High performance computing
+
+    I – I/O
+
+    Inf – AWS Inferentia
+
+    M – Most scenarios
+
+    P – GPU
+
+    R – Random access memory
+
+    T – Turbo
+
+    Trn – AWS Tranium
+
+    U – Ultra-high memory
+
+    VT – Video transcoding
+
+    X – Extra-large memory
+  '''
 To select the most appropriate EC2 instance type, consider factors such as CPU, memory, storage, network performance, and cost efficiency based on your application's demands. AWS provides extensive documentation and tools to help you make the best choice for your cloud computing needs.
