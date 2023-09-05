@@ -31,7 +31,7 @@ Amazon Elastic Compute Cloud (EC2) offers a variety of instance families, each t
 These are just some of the prominent EC2 instance families available in AWS. Each family offers a variety of instance types with different performance characteristics, making it important to choose the right instance type based on your specific workload requirements.
 
 ## Instance Families
-'''
+
     C – Compute
 
     D – Dense storage
@@ -61,5 +61,19 @@ These are just some of the prominent EC2 instance families available in AWS. Eac
     VT – Video transcoding
 
     X – Extra-large memory
-  '''
+## Additional Capabilities
+    a – AMD processors
+
+    g – AWS Graviton processors
+
+    i – Intel processors
+
+    d – Instance store volumes
+
+    n – Network and EBS optimized
+
+    e – Extra storage or memory
+
+    z – High performance
+    
 To select the most appropriate EC2 instance type, consider factors such as CPU, memory, storage, network performance, and cost efficiency based on your application's demands. AWS provides extensive documentation and tools to help you make the best choice for your cloud computing needs.
