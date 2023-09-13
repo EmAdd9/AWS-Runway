@@ -1,4 +1,3 @@
-```markdown
 # Source Bucket Policy
 
 ```json
