@@ -116,7 +116,7 @@
 To create a DataSync location, you can use the AWS CLI command as follows:
 
 ```bash
-aws datasync create-location-s3 --s3-bucket-arn arn:aws:s3:::admin-bucket-source --s3-storage-class STANDARD --s3-config BucketAccessRoleArn="arn:aws:iam::065865586960:role/datasync-role" --region ap-south-1
+aws datasync create-location-s3 --s3-bucket-arn arn:aws:s3:::source_bucket --s3-storage-class STANDARD --s3-config BucketAccessRoleArn="arn:aws:iam::DIST_ACC_ID:role/datasync-role" --region ap-south-1
 ```
 
 Replace `"arn:aws:s3:::admin-bucket-source"` with the appropriate ARN for your source bucket and `"arn:aws:iam::065865586960:role/datasync-role"` with the ARN of the IAM role you want to use for DataSync.
